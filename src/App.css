@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=Young+Serif&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Lilita+One&family=Merriweather:ital,wght@1,900&family=Oswald:wght@700&family=Roboto+Condensed:ital,wght@1,700&family=Roboto:ital,wght@0,400;0,700;1,500&display=swap');
+.App {
+  text-align: center;
+  font-family: 'Croissant One', cursive ,'Young Serif', serif;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
